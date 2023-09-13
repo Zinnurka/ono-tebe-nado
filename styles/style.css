@@ -41,7 +41,7 @@ ul li {
 }
 
 .logo {
-  width: 148px;
+  width: 105px;
 }
 
 .contacts {
@@ -49,3 +49,8 @@ ul li {
   max-width: 240px;
   flex-direction: column;
 }
+
+.contacts a {
+  text-decoration: none;
+}
+
