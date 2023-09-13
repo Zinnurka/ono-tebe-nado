@@ -8,7 +8,7 @@ body {
   min-height: 100%;
 }
 
-wrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,5 +18,34 @@ wrapper {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 92px 50px;
+  margin: 0;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.nav__ul {
+  list-style-type: circle;
+  font-size: 18px;
+}
+
+ul li {
+  display: inline;
+  text-transform: lowercase;
   
+}
+
+.logo {
+  width: 148px;
+}
+
+.contacts {
+  display: flex;
+  max-width: 240px;
+  flex-direction: column;
 }
