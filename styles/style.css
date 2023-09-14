@@ -134,7 +134,8 @@ ul li {
 .about {
   display: flex;
   justify-content: space-between;
-  height: 487px;
+  height: 487px; 
+  margin: 0 50px;
 }
 
 .about__column {
@@ -147,15 +148,22 @@ ul li {
 
 .about_logo {
   display: flex;
+  justify-content: space-around;
+  width: 430px;
+}
+
+.about__logo-image {
+  display: flex;
+  justify-content: space-around;
+  background-size:cover;
   width: 240px;
   height: 240px;
   background-color:black;
   border-radius: 50%;
-  text-align: center;
 }
 
-.about__logo-image {
-  background-size:cover;
+.about__logo-image img {
+  width: 148px;
 }
 
 .about__title {
