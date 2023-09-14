@@ -50,3 +50,9 @@ ul li {
   flex-direction: column;
 }
 
+.jambotron {
+  filter: brightness(40%);
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  height: 757px;  
+}
