@@ -180,7 +180,7 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   height: 97px; 
-  margin: 90px 50px;
+  margin: 180px 50px 90px 50px;
 }
 .footer .contacts {
   justify-self: start;
@@ -198,14 +198,14 @@ footer {
 }
 
 .footer__social-list {
-  display: flex;  
+  display: flex;
+  width: 240px;
   justify-self: end;
-  
+  justify-content: space-between;
 }
 
 .footer__social-icon {
   display: flex;
-  justify-content: space-around;
   height: 48px;
 }
 
