@@ -55,11 +55,52 @@ ul li {
   filter: brightness(40%);
 }
 
+.cover_wrapper {
+  margin: 165px 50px 62px 50px;
+}
+
 .cover {
   height: 757px;
   background-image: url(../images/cover.jpg);
-  background-size: cover;  
+  background-size: cover;
+  color: #fff;
 }
+
+.ono_tebe_nado {
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned-text {
+  display: flex;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 115%;
+}
+
+.aligned-text_center{
+  display: flex;
+  align-self: center;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 115%;
+}
+
+.aligned-text_right{
+  display: flex;
+  align-self: end;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 115%;
+}
+
+
 
 .lots {
   display:flex;
