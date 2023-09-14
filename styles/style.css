@@ -55,15 +55,19 @@ ul li {
   filter: brightness(40%);
 }
 
-.cover_wrapper {
-  margin: 165px 50px 62px 50px;
-}
-
 .cover {
   height: 757px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   color: #fff;
+}
+
+.cover_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 530px;
+  justify-content: space-between;
+  margin: 165px 50px 62px 50px;
 }
 
 .ono_tebe_nado {
@@ -100,7 +104,24 @@ ul li {
   line-height: 115%;
 }
 
+.make_bet {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
 
+.bet-button{
+  justify-self: end;
+  padding: 12px 32px;
+  border: 1px solid #fff;
+}
+
+.bet_text {
+  line-height: 28px;
+  word-spacing: 15px;
+}
 
 .lots {
   display:flex;
