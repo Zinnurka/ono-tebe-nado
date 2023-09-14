@@ -13,20 +13,18 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 1440px;
-  max-height: 100vh;
-
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding: 92px 50px;
-  margin: 0;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  margin: 92px 50px;
 }
 
 .menu {
   display: flex;
+  align-self: center;
 }
 
 .nav__ul {
@@ -41,13 +39,17 @@ ul li {
 }
 
 .logo {
-  width: 105px;
+  width: 148px;
+  justify-self: center;
+  align-self: center;
 }
 
 .contacts {
   display: flex;
   max-width: 240px;
   flex-direction: column;
+  justify-self: end;
+  align-self: center;
 }
 
 .jambotron {
