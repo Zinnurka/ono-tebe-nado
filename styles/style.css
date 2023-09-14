@@ -34,8 +34,7 @@ body {
 
 ul li {
   display: inline;
-  text-transform: lowercase;
-  
+  text-transform: lowercase;  
 }
 
 .logo {
@@ -181,19 +180,35 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   height: 97px; 
-  margin: 90px 0px;
+  margin: 90px 50px;
+}
+.footer .contacts {
+  justify-self: start;
 }
 
 .footer__menu {
   display: flex;
-  align-self: center;
-  flex-direction: column;
+  justify-self: center;  
+  text-transform: lowercase; 
+}
+
+.footer__menu ul li {
+  display: block;
+  text-align: center; 
 }
 
 .footer__social-list {
-  display: flex;
+  display: flex;  
+  justify-self: end;
+  
 }
 
 .footer__social-icon {
+  display: flex;
+  justify-content: space-around;
   height: 48px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
