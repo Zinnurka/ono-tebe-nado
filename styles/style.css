@@ -22,19 +22,22 @@ body {
   margin: 92px 50px;
 }
 
-.menu {
+.header__menu {
   display: flex;
+  flex-direction: column;
   align-self: center;
 }
 
-.nav__ul {
+.header__menu_list {
+  display: flex;
+  column-gap: 32px;
   font-size: 18px;
+  text-transform: lowercase;
   list-style-type: circle;
 }
 
-ul li {
-  display: inline;
-  text-transform: lowercase;  
+.header__menu_list__first_li {  
+  display: block;
 }
 
 .logo {
@@ -271,6 +274,6 @@ footer {
   height: 48px;
 }
 
-.footer__menu-link_active {
+.menu-link_active {
   text-decoration: none;
 }
