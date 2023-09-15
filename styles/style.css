@@ -57,16 +57,17 @@ body {
   line-height: 24.3px;
 }
 
-.overlay {  
-  filter: brightness(40%);
-}
+
 
 .cover {
   height: 757px;
   color: #fff;
-  background-image: url(../images/cover.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/cover.jpg);
+  background-position: center;
   background-size: cover;
+  position: relative;
 }
+
 
 .cover_wrapper {
   display: flex;
@@ -171,7 +172,7 @@ body {
   flex-direction: column;
   justify-content: space-between;  
   padding: 50px 40px;
-  background-image: url(../images/card-lot-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-01.jpg);
   background-size: cover;  
 }
 
@@ -180,7 +181,7 @@ body {
   flex-direction: column;  
   justify-content: space-between;  
   padding: 50px 40px;
-  background-image: url(../images/card-lot-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-02.jpg);
   background-size: cover;
 }
 
@@ -189,7 +190,7 @@ body {
   flex-direction: column;  
   justify-content: space-between;
   padding: 50px 40px;
-  background-image: url(../images/card-lot-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-03.jpg);
   background-size: cover;
 }
 
