@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-.main {
+.wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -121,7 +121,6 @@ body {
 .make_bet {
   display: flex;
   flex-direction: row-reverse;
-  align-items: flex-end;
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
