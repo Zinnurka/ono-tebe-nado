@@ -250,14 +250,16 @@ footer {
   height: 97px; 
   margin: 180px 50px 90px 50px;
 }
-.footer .contacts {
+.footer .address {
   justify-self: start;
 }
 
 .footer__menu {
   display: flex;
   justify-self: center;  
-  text-transform: lowercase; 
+  text-transform: lowercase;
+  font-size: 18px;  
+  line-height: 23.4px;
 }
 
 .footer__menu ul li {
