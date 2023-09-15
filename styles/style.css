@@ -1,6 +1,6 @@
 /* место для вашего кода */
 body {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@ body {
   list-style-type: circle;
 }
 
-.header__menu_list__first_li {  
+.header__menu_list__first_li {
   display: block;
 }
 
@@ -60,7 +60,8 @@ body {
 .cover {
   height: 757px;
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/cover.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -77,14 +78,14 @@ body {
 .ono_tebe_nado {
   display: flex;
   flex-direction: column;
-  gap:15px;
+  gap: 15px;
 }
 
-.letter-spacing_60 {  
+.letter-spacing_60 {
   letter-spacing: 60px;
 }
 
-.letter-spacing_0 {  
+.letter-spacing_0 {
   letter-spacing: 0px;
 }
 
@@ -97,7 +98,7 @@ body {
   text-transform: uppercase;
 }
 
-.aligned-text_center{
+.aligned-text_center {
   display: flex;
   align-self: center;
   font-weight: 700;
@@ -107,7 +108,7 @@ body {
   text-transform: uppercase;
 }
 
-.aligned-text_right{
+.aligned-text_right {
   display: flex;
   align-self: end;
   font-weight: 700;
@@ -127,7 +128,7 @@ body {
   align-items: center;
 }
 
-.bet-button{
+.bet-button {
   justify-self: end;
   border: 1px solid #fff;
   padding: 12px 32px;
@@ -140,7 +141,7 @@ body {
 }
 
 .lots {
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin: 0 50px;
   padding: 180px 0;
@@ -161,34 +162,37 @@ body {
 
 .card {
   width: 430px;
-  height: 450px;  
-  color: #fff;  
+  height: 450px;
+  color: #fff;
 }
 
 .card_type_film {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;  
+  justify-content: space-between;
   padding: 50px 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-01.jpg);
-  background-size: cover;  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-01.jpg);
+  background-size: cover;
 }
 
 .card_type_book {
-  display: flex;  
-  flex-direction: column;  
-  justify-content: space-between;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 50px 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-02.jpg);
   background-size: cover;
 }
 
 .card_type_picture {
-  display: flex;  
-  flex-direction: column;  
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 50px 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-03.jpg);
   background-size: cover;
 }
 
@@ -214,12 +218,12 @@ body {
 .about {
   display: flex;
   justify-content: space-between;
-  height: 487px; 
+  height: 487px;
   margin: 0 50px;
 }
 
 .about__column {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 885px;
@@ -238,8 +242,8 @@ body {
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background-color:black;
-  background-size:cover;
+  background-color: black;
+  background-size: cover;
 }
 
 .about__logo-image img {
@@ -248,7 +252,7 @@ body {
 
 .about__title {
   font-weight: 700;
-  font-size: 40px;  
+  font-size: 40px;
   text-transform: uppercase;
 }
 
@@ -260,7 +264,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  height: 97px; 
+  height: 97px;
   margin: 180px 50px 90px 50px;
 }
 .footer .address {
@@ -270,14 +274,14 @@ footer {
 .footer__menu {
   display: flex;
   justify-self: center;
-  font-size: 18px;  
-  line-height: 23.4px;  
+  font-size: 18px;
+  line-height: 23.4px;
   text-transform: lowercase;
 }
 
 .footer__menu ul li {
   display: block;
-  text-align: center; 
+  text-align: center;
 }
 
 .footer__social-list {
