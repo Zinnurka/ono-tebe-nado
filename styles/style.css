@@ -52,8 +52,8 @@ body {
   justify-self: end;
   align-self: center;
   max-width: 240px;
-  font-style: normal;
   font-size: 18px;
+  font-style: normal;
   line-height: 24.3px;
 }
 
@@ -63,16 +63,16 @@ body {
 
 .cover {
   height: 757px;
+  color: #fff;
   background-image: url(../images/cover.jpg);
   background-size: cover;
-  color: #fff;
 }
 
 .cover_wrapper {
   display: flex;
   flex-direction: column;
-  height: 530px;
   justify-content: space-between;
+  height: 530px;
   margin: 165px 50px 62px 50px;
 }
 
@@ -83,45 +83,45 @@ body {
 
 .aligned-text {
   display: flex;
-  font-size: 100px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 30px;
+  font-size: 100px;
   line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .aligned-text_center{
   display: flex;
   align-self: center;
-  font-size: 100px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 30px;
+  font-size: 100px;
   line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .aligned-text_right{
   display: flex;
   align-self: end;
-  font-size: 100px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 30px;
+  font-size: 100px;
   line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .make_bet {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
-  font-weight: 400;
 }
 
 .bet-button{
   justify-self: end;
-  padding: 12px 32px;
   border: 1px solid #fff;
+  padding: 12px 32px;
 }
 
 .bet_text {
@@ -183,8 +183,8 @@ body {
 }
 
 .card__title {
-  font-size: 22px;
   font-weight: 700;
+  font-size: 22px;
   line-height: 120%;
   text-transform: uppercase;
 }
@@ -259,10 +259,10 @@ footer {
 
 .footer__menu {
   display: flex;
-  justify-self: center;  
-  text-transform: lowercase;
+  justify-self: center;
   font-size: 18px;  
-  line-height: 23.4px;
+  line-height: 23.4px;  
+  text-transform: lowercase;
 }
 
 .footer__menu ul li {
@@ -272,9 +272,9 @@ footer {
 
 .footer__social-list {
   display: flex;
-  width: 240px;
   justify-self: end;
   justify-content: space-between;
+  width: 240px;
 }
 
 .footer__social-icon {
