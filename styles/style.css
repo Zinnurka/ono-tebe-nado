@@ -184,6 +184,9 @@ body {
 
 .card__title {
   font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
 }
 
 .card__text {
