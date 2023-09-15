@@ -120,8 +120,9 @@ body {
 }
 
 .make_bet {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
@@ -134,8 +135,9 @@ body {
 }
 
 .bet_text {
+  padding-right: 100px;
   line-height: 28px;
-  word-spacing: 15px;
+  word-spacing: 17px;
 }
 
 .lots {
