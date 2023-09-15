@@ -58,7 +58,69 @@ ul li {
 .cover {
   height: 757px;
   background-image: url(../images/cover.jpg);
-  background-size: cover;  
+  background-size: cover;
+  color: #fff;
+}
+
+.cover_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 530px;
+  justify-content: space-between;
+  margin: 165px 50px 62px 50px;
+}
+
+.ono_tebe_nado {
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned-text {
+  display: flex;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 115%;
+}
+
+.aligned-text_center{
+  display: flex;
+  align-self: center;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 115%;
+}
+
+.aligned-text_right{
+  display: flex;
+  align-self: end;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 115%;
+}
+
+.make_bet {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.bet-button{
+  justify-self: end;
+  padding: 12px 32px;
+  border: 1px solid #fff;
+}
+
+.bet_text {
+  line-height: 28px;
+  word-spacing: 15px;
 }
 
 .lots {
