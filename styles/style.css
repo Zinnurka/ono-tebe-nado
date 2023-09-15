@@ -46,12 +46,15 @@ body {
   width: 148px;
 }
 
-.contacts {
+.address {
   display: flex;
   flex-direction: column;
   justify-self: end;
   align-self: center;
   max-width: 240px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.3px;
 }
 
 .overlay {  
