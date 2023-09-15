@@ -22,19 +22,22 @@ body {
   margin: 92px 50px;
 }
 
-.menu {
+.header__menu {
   display: flex;
+  flex-direction: column;
   align-self: center;
 }
 
-.nav__ul {
+.header__menu_list {
+  display: flex;
+  column-gap: 32px;
   font-size: 18px;
+  text-transform: lowercase;
   list-style-type: circle;
 }
 
-ul li {
-  display: inline;
-  text-transform: lowercase;  
+.header__menu_list__first_li {  
+  display: block;
 }
 
 .logo {
@@ -43,84 +46,97 @@ ul li {
   width: 148px;
 }
 
-.contacts {
+.address {
   display: flex;
   flex-direction: column;
   justify-self: end;
   align-self: center;
   max-width: 240px;
-}
-
-.overlay {  
-  filter: brightness(40%);
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
 }
 
 .cover {
   height: 757px;
-  background-image: url(../images/cover.jpg);
-  background-size: cover;
   color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .cover_wrapper {
   display: flex;
   flex-direction: column;
-  height: 530px;
   justify-content: space-between;
+  height: 530px;
   margin: 165px 50px 62px 50px;
 }
 
 .ono_tebe_nado {
   display: flex;
   flex-direction: column;
+  gap:15px;
+}
+
+.letter-spacing_60 {  
+  letter-spacing: 60px;
+}
+
+.letter-spacing_0 {  
+  letter-spacing: 0px;
 }
 
 .aligned-text {
   display: flex;
-  font-size: 100px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 30px;
+  font-size: 100px;
   line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .aligned-text_center{
   display: flex;
   align-self: center;
-  font-size: 100px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 30px;
+  font-size: 100px;
   line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .aligned-text_right{
   display: flex;
   align-self: end;
-  font-size: 100px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 30px;
+  font-size: 100px;
   line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .make_bet {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
-  font-weight: 400;
+  align-items: center;
 }
 
 .bet-button{
   justify-self: end;
-  padding: 12px 32px;
   border: 1px solid #fff;
+  padding: 12px 32px;
 }
 
 .bet_text {
+  padding-right: 100px;
   line-height: 28px;
-  word-spacing: 15px;
+  word-spacing: 17px;
 }
 
 .lots {
@@ -154,7 +170,7 @@ ul li {
   flex-direction: column;
   justify-content: space-between;  
   padding: 50px 40px;
-  background-image: url(../images/card-lot-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-01.jpg);
   background-size: cover;  
 }
 
@@ -163,7 +179,7 @@ ul li {
   flex-direction: column;  
   justify-content: space-between;  
   padding: 50px 40px;
-  background-image: url(../images/card-lot-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-02.jpg);
   background-size: cover;
 }
 
@@ -172,12 +188,15 @@ ul li {
   flex-direction: column;  
   justify-content: space-between;
   padding: 50px 40px;
-  background-image: url(../images/card-lot-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-03.jpg);
   background-size: cover;
 }
 
 .card__title {
+  font-weight: 700;
   font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
 }
 
 .card__text {
@@ -244,14 +263,16 @@ footer {
   height: 97px; 
   margin: 180px 50px 90px 50px;
 }
-.footer .contacts {
+.footer .address {
   justify-self: start;
 }
 
 .footer__menu {
   display: flex;
-  justify-self: center;  
-  text-transform: lowercase; 
+  justify-self: center;
+  font-size: 18px;  
+  line-height: 23.4px;  
+  text-transform: lowercase;
 }
 
 .footer__menu ul li {
@@ -261,9 +282,9 @@ footer {
 
 .footer__social-list {
   display: flex;
-  width: 240px;
   justify-self: end;
   justify-content: space-between;
+  width: 240px;
 }
 
 .footer__social-icon {
@@ -271,6 +292,6 @@ footer {
   height: 48px;
 }
 
-.footer__menu-link_active {
+.menu-link_active {
   text-decoration: none;
 }
