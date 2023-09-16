@@ -58,7 +58,6 @@ body {
 }
 
 .cover {
-  height: 757px;
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/cover.jpg);
