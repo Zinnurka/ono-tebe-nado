@@ -70,7 +70,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 530px;
   margin: 165px 50px 62px 50px;
 }
 
@@ -122,6 +121,7 @@ body {
   flex-direction: row-reverse;
   font-weight: 400;
   font-size: 22px;
+  padding-top: 115px;
   text-transform: uppercase;
   align-items: center;
 }
@@ -142,7 +142,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 50px;
-  padding: 180px 0;
+  padding: 170px 0 180px 0;
 }
 
 .lots__heading {
