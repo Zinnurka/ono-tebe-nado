@@ -70,7 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 165px 50px 62px 50px;
+  margin: 165px 50px 0px 50px;
 }
 
 .ono_tebe_nado {
@@ -121,7 +121,8 @@ body {
   flex-direction: row-reverse;
   font-weight: 400;
   font-size: 22px;
-  padding-top: 115px;
+  padding-top: 110px;
+  padding-bottom: 62px;
   text-transform: uppercase;
   align-items: center;
 }
