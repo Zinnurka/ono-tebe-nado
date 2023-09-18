@@ -76,7 +76,7 @@ body {
 .ono_tebe_nado {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .letter-spacing_60 {
@@ -121,7 +121,7 @@ body {
   flex-direction: row-reverse;
   font-weight: 400;
   font-size: 22px;
-  padding-top: 110px;
+  padding-top: 95px;
   padding-bottom: 62px;
   text-transform: uppercase;
   align-items: center;
