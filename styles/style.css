@@ -58,12 +58,12 @@ body {
 }
 
 .cover {
+  position: relative;
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
-  position: relative;
 }
 
 .cover_wrapper {
@@ -119,19 +119,19 @@ body {
 .make_bet {
   display: flex;
   flex-direction: row-reverse;
-  font-weight: 400;
-  font-size: 22px;
+  align-items: center;
   padding-top: 95px;
   padding-bottom: 62px;
+  font-weight: 400;
+  font-size: 22px;
   text-transform: uppercase;
-  align-items: center;
 }
 
 .bet-button {
   justify-self: end;
   border: 1px solid #fff;
-  color: #fff;
   padding: 12px 32px;
+  color: #fff;
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
@@ -164,15 +164,15 @@ body {
 }
 
 .card {
-  width: 430px;
-  height: 450px;
-  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 430px;
+  height: 450px;
   padding: 50px 40px;
-  background-size: cover;
+  color: #fff;
   text-decoration: none;
+  background-size: cover;
 }
 
 .card_type_film {  
@@ -194,8 +194,8 @@ body {
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
-  text-transform: uppercase;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .card__text {
@@ -220,9 +220,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 100px;
   width: 885px;
   margin-top: 100px;
-  gap: 100px;
 }
 
 .about_logo {
