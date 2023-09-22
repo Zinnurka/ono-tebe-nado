@@ -177,7 +177,7 @@ body {
 
 .card_type_film {  
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/card-lot-01.jpg);  
+    url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
@@ -252,7 +252,7 @@ body {
 }
 
 .about__text {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   gap:25px;
   font-size: 20px;
