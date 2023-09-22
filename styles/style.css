@@ -130,7 +130,11 @@ body {
 .bet-button {
   justify-self: end;
   border: 1px solid #fff;
+  color: #fff;
   padding: 12px 32px;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
 }
 
 .bet_text {
