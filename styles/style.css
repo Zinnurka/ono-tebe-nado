@@ -57,6 +57,11 @@ body {
   line-height: 24.3px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .cover {
   position: relative;
   color: #fff;
@@ -175,7 +180,7 @@ body {
   background-size: cover;
 }
 
-.card_type_film {  
+.card_type_film {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/card-lot-01.jpg);
 }
