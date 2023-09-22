@@ -172,6 +172,7 @@ body {
   justify-content: space-between;
   padding: 50px 40px;
   background-size: cover;
+  text-decoration: none;
 }
 
 .card_type_film {  
@@ -194,6 +195,7 @@ body {
   font-size: 22px;
   line-height: 120%;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .card__text {
